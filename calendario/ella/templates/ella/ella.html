@@ -1,0 +1,93 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}el-la{% endblock %}
+{% block content %}
+<div class="container gallery-container">
+	<div class="tz-gallery">
+	<!-- Page Heading -->
+	  <h1 class="my-4">EL - LA
+	    <small></small>
+	  </h1>
+	  <hr>
+	  <div class="row">
+	    <div class="col-lg-4 col-sm-6 mb-4">
+	      <div class="card h-100">
+	        <a href="{% url 'ella_gallery' %}"><img class="card-img-top" src="{% static 'core/img/el-la/el-la/1el (1).jpg' %}" alt=""></a>
+	        <div class="card-body">
+	          <h4 class="card-title">
+	            <a href="{% url 'ella_gallery' %}">EL-LA</a>
+	          </h4>
+	          <p class="card-text"></p>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="col-lg-4 col-sm-6 mb-4">
+	      <div class="card h-100">
+	        <a href="{% url 'espacio_sideral' %}"><img class="card-img-top" src="{% static 'core/img/el-la/espacio sideral/2 sc (1).jpg' %}" alt=""></a>
+	        <div class="card-body">
+	          <h4 class="card-title">
+	            <a href="{% url 'espacio_sideral' %}">Espacio sideral</a>
+	          </h4>
+	          <p class="card-text"></p>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="col-lg-4 col-sm-6 mb-4">
+	      <div class="card h-100">
+	        <a href="{% url 'sistema_solar' %}"><img class="card-img-top" src="{% static 'core/img/el-la/sistema solar/1 ss (1).jpg' %}" alt=""></a>
+	        <div class="card-body">
+	          <h4 class="card-title">
+	            <a href="{% url 'sistema_solar' %}">Sistema solar</a>
+	          </h4>
+	          <p class="card-text"></p>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="col-lg-4 col-sm-6 mb-4">
+	      <div class="card h-100">
+	        <a href="{% url 'mujer_unipolar' %}"><img class="card-img-top" src="{% static 'core/img/el-la/mujer unipolar/1 u (1).jpg' %}" alt=""></a>
+	        <div class="card-body">
+	          <h4 class="card-title">
+	            <a href="{% url 'mujer_unipolar' %}">Mujer unipolar</a>
+	          </h4>
+	          <p class="card-text"></p>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="col-lg-4 col-sm-6 mb-4">
+	      <div class="card h-100">
+	        <a href="{% url 'mujer_bipolar' %}"><img class="card-img-top" src="{% static 'core/img/el-la/mujer bipolar/1 b (4).jpg' %}" alt=""></a>
+	        <div class="card-body">
+	          <h4 class="card-title">
+	            <a href="{% url 'mujer_bipolar' %}">Mujer bipolar</a>
+	          </h4>
+	          <p class="card-text"></p>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="col-lg-4 col-sm-6 mb-4">
+	      <div class="card h-100">
+	        <a href="{% url 'hombre_unipolar' %}"><img class="card-img-top" src="{% static 'core/img/el-la/hombre unipolar/1hu (1).jpg' %}" alt=""></a>
+	        <div class="card-body">
+	          <h4 class="card-title">
+	            <a href="{% url 'hombre_unipolar' %}">Hombre Unipolar</a>
+	          </h4>
+	          <p class="card-text"></p>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="col-lg-4 col-sm-6 mb-4">
+	      <div class="card h-100">
+	        <a href="{% url 'hombre_bipolar' %}"><img class="card-img-top" src="{% static 'core/img/el-la/hombre bipolar/1hb (4).jpg' %}" alt=""></a>
+	        <div class="card-body">
+	          <h4 class="card-title">
+	            <a href="{% url 'hombre_bipolar' %}">Hombre bipolar</a>
+	          </h4>
+	          <p class="card-text"></p>
+	        </div>
+	      </div>
+		</div>
+	  </div>
+	</div>
+</div>
+{% endblock %}

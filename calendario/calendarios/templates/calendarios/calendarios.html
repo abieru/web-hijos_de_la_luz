@@ -1,0 +1,82 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}Calendario{% endblock %}
+{% block content %}
+  <div class="container gallery-container">
+    <div class="tz-gallery">
+    <!-- Page Heading -->
+      <h1 class="my-4">Calendarios
+        <small></small>
+      </h1>
+      <hr>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <a href="{% url 'calendar2019' %}"><img class="card-img-top" src="{% static 'core/img/calendarios/2019/portada huracanes.jpg' %}" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="{% url 'calendar2019' %}">Calendario 2019</a>
+              </h4>
+              <!--<p class="card-text"></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <a href="{% url 'calendar2018' %}"><img class="card-img-top" src="{% static 'core/img/calendarios/2018/portada bosques 1.jpg' %}" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="{% url 'calendar2018' %}">Calendario 2018</a>
+              </h4>
+              <!--<p class="card-text"></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <a href="{% url 'calendar2017' %}"><img class="card-img-top" src="{% static 'core/img/calendarios/2017/portadas volcanes 2017.jpg' %}" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="{% url 'calendar2017' %}">Calendario 2017</a>
+              </h4>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <!--segunda fila -->
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <a href="{% url 'calendar2016' %}"><img class="card-img-top" src="{% static 'core/img/calendarios/2016/portada fallas 1.jpg' %}" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="{% url 'calendar2016' %}">Calendario 2016</a>
+              </h4>
+              <!--<p class="card-text"></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <a href="{% url 'calendar2014' %}"><img class="card-img-top" src="{% static 'core/img/calendarios/2014/1-aportada.jpg' %}" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="{% url 'calendar2014' %}">Calendario 2014</a>
+              </h4>
+              <!--<p class="card-text"></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <a href="{% url 'calendar2013' %}"><img class="card-img-top" src="{% static 'core/img/calendarios/2013/1-13-aportada-(1).jpg' %}" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="{% url 'calendar2013' %}">Calendario 2013</a>
+              </h4>
+              <!--<p class="card-text"></p>-->
+            </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}
