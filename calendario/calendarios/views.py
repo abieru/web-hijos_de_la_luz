@@ -11,6 +11,9 @@ def c2013(request):
 def c2014(request):
 	return render(request, 'calendarios/c2014.html')
 
+def c2015(request):
+	return render(request, 'calendarios/c2015.html')
+
 def c2016(request):
 	return render(request, 'calendarios/c2016.html')
 

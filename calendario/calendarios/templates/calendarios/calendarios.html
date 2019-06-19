@@ -44,13 +44,23 @@
           </div>
         </div>
         <!--segunda fila -->
-      <div class="row">
         <div class="col-lg-4 col-sm-6 mb-4">
           <div class="card h-100">
             <a href="{% url 'calendar2016' %}"><img class="card-img-top" src="{% static 'core/img/calendarios/2016/portada fallas 1.jpg' %}" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
                 <a href="{% url 'calendar2016' %}">Calendario 2016</a>
+              </h4>
+              <!--<p class="card-text"></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <a href="{% url 'calendar2015' %}"><img class="card-img-top" src="{% static 'core/img/calendarios/2015/CONTRAPORTADA alimentos 2015.jpg' %}" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="{% url 'calendar2015' %}">Calendario 2015</a>
               </h4>
               <!--<p class="card-text"></p>-->
             </div>
@@ -78,5 +88,4 @@
             </div>
           </div>
         </div>
-      </div>
 {% endblock %}
